@@ -1,0 +1,39 @@
+.login-container {
+    display: flex;
+    height: 100vh;
+    background: url("./traffic-light.png") no-repeat center center/cover;
+  }
+  
+  .login-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+  }
+  

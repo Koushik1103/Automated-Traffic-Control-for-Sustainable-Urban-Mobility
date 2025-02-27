@@ -1,0 +1,29 @@
+.analytics-container {
+    height: 100vh;
+    background: url("./traffic-light.png") no-repeat center center/cover;
+  }
+  
+  .search-box {
+    background: lightgray;
+    padding: 10px;
+    margin: 20px auto;
+    width: 400px;
+    border-radius: 5px;
+  }
+  
+  .search-input {
+    width: 100%;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .analytics-card {
+    background: darkgray;
+    width: 500px;
+    padding: 30px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
