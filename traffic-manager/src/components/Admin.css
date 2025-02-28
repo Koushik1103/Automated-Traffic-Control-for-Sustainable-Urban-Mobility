@@ -1,24 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
 
 .container {
-    height: 100vh;
-    font-family: "Josefin Sans", sans-serif;
-    background: url("./traffic-light.png") no-repeat center center/cover;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: flex-end;
-    background: rgba(0, 0, 0, 0.8);
-    padding: 10px;
-  }
-  
-  .nav-btn {
-    margin: 5px;
-    padding: 10px 15px;
-    margin-left: 10px;
-    border: none;
-    border-radius: 15px;
-    background: lightgray;
-    cursor: pointer;
-  }
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  background: url("./traffic-light.png") no-repeat center center/cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+}
+
+.nav-btn {
+  margin: 5px;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 15px;
+  background: lightgray;
+  cursor: pointer;
+}
+
+.congestion-card {
+  background-color: #f0f0f0;
+  height: 80%;
+  width: 75%;
+  margin-top: 25px;
+  margin-left: 12.5%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
