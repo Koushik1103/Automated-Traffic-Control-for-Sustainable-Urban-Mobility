@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Home from "./components/Home";
 import Analytics from "./components/Analytics";
+import Admin from "./components/Admin";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path="/analytics" element={<Analytics />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </Router>
   );
