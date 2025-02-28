@@ -13,10 +13,8 @@ const Home = () => {
       </nav>
 
       <div className="card-container">
-        <div className="card">Lorem ipsum dolor sit amet.</div>
-        <div className="card clickable" onClick={() => navigate("/analytics")}>
-          Analytics Page redirect on click
-        </div>
+        <div className="card one">Lorem ipsum dolor sit amet.</div>
+        <div className="card clickable" onClick={() => navigate("/analytics")}>Analytics Page redirect on click</div>
       </div>
     </div>
   );
