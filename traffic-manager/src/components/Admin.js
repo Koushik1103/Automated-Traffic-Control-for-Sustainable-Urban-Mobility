@@ -8,8 +8,8 @@ const Admin = () => {
   return (
     <div className="container">
       <nav className="navbar">
-        <button className="nav-btn">Home</button>
-        <button className="nav-btn">Admin</button>
+        <button className="nav-btn" onClick={() => navigate("/home")}>Home</button>
+        <button className="nav-btn" onClick={() => navigate("/admin")}>Admin</button>
       </nav>
     </div>
   );
