@@ -1,3 +1,13 @@
+.split-login {
+  display: flex;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.75;
+  width: 50vw;
+  margin-left: 50vw;
+}
+
+
 .login-container {
     display: flex;
     height: 100vh;
@@ -5,35 +15,45 @@
   }
   
   .login-box {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 10px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10%;
+    height: 60vh;
+    width: 25vw;
     margin: auto;
-    width: 300px;
+    padding: 50px;
     text-align: center;
   }
   
   .input-field {
-    width: 90%;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  .login-btn {
+    height: 15%;
     width: 100%;
     padding: 10px;
-    background: gray;
-    color: white;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,1);
+  }
+
+  .input-field.top {
+    margin-top: 25%;
+  }
+
+  .login-btn {
+    width: 50%;
+    padding: 10px;
+    background: white;
+    color: black;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
   }
   
   .forgot-password {
-    display: block;
-    margin-top: 10px;
-    color: blue;
+    display: flex;
+    margin-top: 15px;
+    align-content: flex-start;
+  }
+
+  ::placeholder {
+    color: black !important;
   }
   
