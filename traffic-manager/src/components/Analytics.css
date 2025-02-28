@@ -1,29 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
 .analytics-container {
     height: 100vh;
+    font-family: "Josefin Sans", sans-serif;
     background: url("./traffic-light.png") no-repeat center center/cover;
   }
   
+  .search-container {
+    background-color: #4f4f4f;
+    height: 80%;
+    width: 75%;
+    margin-top: 15px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
   .search-box {
-    background: lightgray;
-    padding: 10px;
-    margin: 20px auto;
-    width: 400px;
+    background: white;
+    width: 90%;
     border-radius: 5px;
   }
   
   .search-input {
     width: 100%;
-    border: none;
     padding: 8px;
+    border: 1px solid black;
     font-size: 16px;
   }
   
   .analytics-card {
-    background: darkgray;
-    width: 500px;
+    height: 90%;
     padding: 30px;
-    margin: 50px auto;
     text-align: center;
-    border-radius: 10px;
   }
   

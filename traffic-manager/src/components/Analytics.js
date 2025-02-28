@@ -9,12 +9,13 @@ const Analytics = () => {
         <button className="nav-btn">Admin</button>
       </nav>
 
-      <div className="search-box">
-        <input type="text" placeholder="🔍 Search" className="search-input" />
-      </div>
-
-      <div className="analytics-card">
-        <p>Lorem ipsum dolor sit amet.</p>
+      <div className="search-container">
+        <div className="search-box">
+          <input type="text" placeholder="🔍 Search" className="search-input" />
+          <div className="analytics-card">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
       </div>
     </div>
   );
